@@ -10,7 +10,7 @@ class NamesTest < Minitest::Test
   end
 
   def test_longest_of_one
-    skip
+    # skip
     names = Names.new
     names << "Oda"
     assert_equal "Oda", names.longest

@@ -7,7 +7,7 @@ class Beers
   end
 
   def take_on_down_and_pass_it_around
-    @inventory - 1
+    @inventory -= 1
   end
 
   def restock
