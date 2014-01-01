@@ -1,12 +1,17 @@
 class Names
 
-  def longest
-    @names.split("")
-    return
+  def initialize
+    @names = []
   end
 
-  def <<(names)
-    @names
+  def longest
+    @names.max_by do |name|
+      name.length
+    end
+  end
+
+  def << (input)
+    @names << input
   end
 
 end

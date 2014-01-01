@@ -17,7 +17,7 @@ class NamesTest < Minitest::Test
   end
 
   def test_longest_of_several
-    skip
+    # skip
     names = Names.new
     names << "Ann"
     names << "Alexandra"
