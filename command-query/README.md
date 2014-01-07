@@ -36,8 +36,8 @@ These exercises focus on these two types of operations.
 - `water_test.rb`
 - `appointments_test.rb`
 - `yak_test.rb`
-- `student_test.rb`
 - `money_test.rb`
+- `student_test.rb`
 - `children_test.rb`
 - `catalogue_test.rb`
 - `wallet_test.rb`
