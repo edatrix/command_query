@@ -72,6 +72,7 @@ class ShovelTest < FillInTheBlankTest
     date3 = date << 3
     date4 = date << 4
 
+    equal_to_what "date.strftime('%e %b, %Y')"
     equal_to_what "date1.strftime('%e %b, %Y')"
     equal_to_what "date2.strftime('%e %b, %Y')"
     equal_to_what "date3.strftime('%e %b, %Y')"
@@ -99,7 +100,7 @@ class ShovelTest < FillInTheBlankTest
     face << "apple"
     face << "bread"
     face << "chicken"
-    assert_equal __, face.foods_eaten
+    equal_to_what "face.foods_eaten"
 
     # Go look at the Face class.
     # How do you define a `<<` method?
