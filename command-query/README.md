@@ -32,7 +32,7 @@ These exercises focus on these two types of operations.
 - `beers_test.rb`
 - `teenager_test.rb`
 - `adult_test.rb`
-- `names_test.rb`
+- `roll_call_test.rb`
 - `santa_test.rb`
 - `dog_test.rb`
 - `water_test.rb`
