@@ -13,6 +13,7 @@ BOARD
   end
 
   def test_cell_colors
+    skip
     board = Checkerboard.new(2)
 
     assert board.black?(0, 0)
@@ -27,6 +28,7 @@ BOARD
   end
 
   def test_bigger_board
+    skip
     expected = <<-BOARD
 B W B
 W B W
@@ -36,6 +38,7 @@ BOARD
   end
 
   def test_chess_board
+    skip
     expected = <<-BOARD
 B W B W B W B W
 W B W B W B W B
