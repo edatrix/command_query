@@ -18,13 +18,13 @@ class MoneyTest < Minitest::Test
     assert_equal 33, money.amount
   end
 
-  def test_pay_money
+  def test_spend_money
     skip
     money = Money.new
     money.earn(50)
-    money.pay(12)
+    money.spend(12)
     assert_equal 38, money.amount
-    money.pay(7)
+    money.spend(7)
     assert_equal 31, money.amount
   end
 end
