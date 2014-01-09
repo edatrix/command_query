@@ -4,6 +4,10 @@ require 'minitest/pride'
 
 class TimesTest < Minitest::Test
 
+  def __
+    "Fill in the blank here"
+  end
+
   def test_do_it_again
     happy_birthday = []
     3.times do
