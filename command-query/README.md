@@ -35,12 +35,13 @@ These exercises focus on these two types of operations.
 - `roll_call_test.rb`
 - `santa_test.rb`
 - `dog_test.rb`
+- `children_test.rb`
 - `water_test.rb`
 - `appointments_test.rb`
 - `yak_test.rb`
 - `money_test.rb`
+- `cupcake_test.rb`
 - `student_test.rb`
-- `children_test.rb`
 - `catalogue_test.rb`
 - `wallet_test.rb`
 - `clearance_test.rb`
