@@ -1,8 +1,7 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 require_relative 'face'
 
-class ShovelFaceTest < HomeworkTest
+class ShovelFaceTest < Minitest::Homework
   def test_shovel_on_face
     face = Face.new
     face << "apple"

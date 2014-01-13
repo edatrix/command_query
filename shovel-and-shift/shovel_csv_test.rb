@@ -1,8 +1,9 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 require 'csv'
 
-class ShovelCSVTest < HomeworkTest
+class ShovelCSVTest < Minitest::Homework
+  self.be_gentle!
+
   def test_shovel_on_csv
     row = CSV::Row.new(["name", "age"], ["Alice", 23])
 

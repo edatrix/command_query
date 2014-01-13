@@ -1,7 +1,8 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 
-class ShovelStringTest < HomeworkTest
+class ShovelStringTest < Minitest::Homework
+  be_gentle!
+
   def test_string_equality
     s1 = ""
     s2 = ""

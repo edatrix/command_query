@@ -1,7 +1,8 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 
-class ShovelArrayTest < HomeworkTest
+class ShovelArrayTest < Minitest::Homework
+  self.be_gentle!
+
   def test_array_equality
     a1 = []
     a2 = []
