@@ -1,4 +1,4 @@
-# Shovel
+# Shovel and Shift
 
 Short introduction to `<<`, also known as _the shovel operator_,
 which isn't really an operator at all. It's a method.
@@ -21,6 +21,8 @@ def <<(thingy)
   # now use thingy somehow
 end
 ```
+
+When used on `Fixnum` and `Date` it is usually called `shift` rather than `shovel`.
 
 ## Exploration
 
