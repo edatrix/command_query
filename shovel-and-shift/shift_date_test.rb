@@ -1,8 +1,9 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 require 'date'
 
-class ShiftDateTest < HomeworkTest
+class ShiftDateTest < Minitest::Homework
+  self.be_gentle!
+
   def test_shift_left_on_date
     date = Date.new(2013, 11, 2)
     assert_equal __, date.strftime('%e %b, %Y')

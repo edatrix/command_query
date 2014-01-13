@@ -1,7 +1,8 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 
-class ShiftFixnumTest < HomeworkTest
+class ShiftFixnumTest < Minitest::Homework
+  self.be_gentle!
+
   def test_object_ids_of_fixnums
     i1 = 1
     i2 = 1

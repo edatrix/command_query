@@ -1,7 +1,8 @@
 require_relative 'test_helper'
-require_relative 'first_error_reporter'
 
-class HashDefaultTest < HomeworkTest
+class HashDefaultTest < Minitest::Homework
+  self.be_gentle!
+
   def test_sometimes_syntax_error
     # These all work.
     assert_equal({}, {})
