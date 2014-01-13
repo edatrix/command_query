@@ -1,5 +1,26 @@
 # Shovel and Shift
 
+## Exploration
+
+Run `bundle install`, then work through the following test suites.
+
+### Get acquainted with `<<` and `>>`
+
+* `shovel_string_test.rb`
+* `shovel_array_test.rb`
+* `shift_date_test.rb`
+* `shovel_csv_test.rb`
+* `shovel_face_test.rb`
+* `shift_fixnum_test.rb`
+* `hash_default_test.rb`
+
+### Fix bugs
+
+* `sparkly_test.rb` - fix the bug
+* `reading_list_test.rb` - fix the bug
+
+## Notes
+
 Short introduction to `<<`, also known as _the shovel operator_,
 which isn't really an operator at all. It's a method.
 
@@ -23,22 +44,3 @@ end
 ```
 
 When used on `Fixnum` and `Date` it is usually called `shift` rather than `shovel`.
-
-## Exploration
-
-### Get acquainted with `<<` and `>>`
-
-* `shovel_string_test.rb`
-* `shovel_array_test.rb`
-* `shift_date_test.rb`
-* `shovel_csv_test.rb`
-* `shovel_face_test.rb`
-* `shift_fixnum_test.rb`
-* `hash_default_test.rb`
-
-### Fix bugs
-
-* `sparkly_test.rb` - fix the bug
-* `reading_list_test.rb` - fix the bug
-
-
