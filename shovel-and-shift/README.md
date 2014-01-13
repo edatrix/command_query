@@ -24,9 +24,19 @@ end
 
 ## Exploration
 
-* `shovel_test.rb` - get acquainted with `<<`
+### Get acquainted with `<<` and `>>`
+
+* `shovel_string_test.rb`
+* `shovel_array_test.rb`
+* `shift_date_test.rb`
+* `shovel_csv_test.rb`
+* `shovel_face_test.rb`
+* `shift_fixnum_test.rb`
+* `hash_default_test.rb`
+
+### Fix bugs
+
 * `sparkly_test.rb` - fix the bug
-* `sparkly_hint_test.rb` - if you get stuck on the bug, try this
 * `reading_list_test.rb` - fix the bug
-* `reading_list_hint_test.rb` - if you get stuck on the bug, try this
-* `hash_default_test.rb` - explore how shovel and hash defaults can interact
+
+
