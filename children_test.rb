@@ -8,22 +8,22 @@ class ChildrenTest < Minitest::Test
   def test_nobody_is_the_eldest
     children = Children.new
 
-    assert_nil children.eldest
+    assert_equal nil, children.eldest
   end
 
   def test_the_eldest_of_one
-    # skip
+    skip
     children = Children.new
     children << Child.new("Sarah", 5)
-    assert_equal "Sarah", children.eldest.name
+    assert_equal "Sarah", children.eldest
   end
 
   def test_the_eldest_of_several
-    # skip
+    skip
     children = Children.new
     children << Child.new("Robert", 2)
     children << Child.new("Fran", 8)
     children << Child.new("Hilbert", 4)
-    assert_equal "Fran", children.eldest.name
+    assert_equal "Fran", children.eldest
   end
 end
