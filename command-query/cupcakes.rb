@@ -13,8 +13,8 @@ class Cupcakes
     end
   end
 
-  def <<(type)
-    @cupcakes << type
+  def <<(kind)
+    @cupcakes << kind
   end
 
 end
