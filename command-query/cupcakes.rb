@@ -1,15 +1,20 @@
 class Cupcakes
 
   def initialize
-    @flavors = []
+    @cupcakes = []
   end
 
   def sweetest
-    @flavors
+    unless @cupcakes == []
+      sweetest = @cupcakes.max_by do |cupcake|
+        cupcake.grams
+      end
+      sweetest
+    end
   end
 
-  def <<(cupcake)
-    @flavors << cupcake
+  def <<(type)
+    @cupcakes << type
   end
 
 end

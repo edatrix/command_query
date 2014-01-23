@@ -9,12 +9,12 @@ class Children
       group = @children.max_by do |child|
         child.age
       end
-      group.name
+      group
     end
   end
 
-  def <<(child)
-    @children << child
+  def <<(name)
+    @children << name
   end
 
 end
